@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fcfcfc;
+}
+
+div {
+  display: flex;
+  border: 1px black;
+}
+
+header h2 {
+  color: #111;
+  font-family: ProximaNova;
+  font-size: 1.625em;
+  font-weight: bold;
+  letter-spacing: -0.04em;
+  line-height: 1.75em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+times {
+  background-color: #fcfcfc;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  font-size: 57px;
+  min-width: 100px;
+  width: 450px;
+}
+
+tabela-cabecalho {
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 0 solid #999;
+  border-top: 1px solid #ddd;
+  color: #999;
+  font-family: opensans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  height: 40px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+.tabela-tr {
+  text-align: left;
+  border-bottom: solid 1px #ddd;
+}
+
+.tabela-nome-time {
+  text-align: left;
+  line-height: 22px;
+}
+
+.libertadores {
+  color: #003366;
+  font-weight: bold;
+  border-spacing: 0px;
+}
+.prelibertadores {
+  color: #1398be;
+  font-weight: bold;
+  width: 150px;
+}
+
+estatistica {
+  font-size: 14px;
+  width: calc(100% - 250px);
+  border-collapse: collapse;
+  border-spacing: 0px;
+  display: block;
+  overflow-x: overlay;
+}
+
+estatistica-titulo {
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 0 solid #999;
+  border-top: 1px solid #ddd;
+  color: #999;
+  font-family: opensans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  height: 40px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
