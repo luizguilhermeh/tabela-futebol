@@ -1,10 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 body {
-  background-color: #fcfcfc;
+  min-height: 100vh;
+  margin: 10 auto;
 }
 
 div {
@@ -23,17 +19,36 @@ header h2 {
   text-transform: uppercase;
 }
 
-times {
+.tabela-tr {
+  text-align: center;
+  border-right: 0px solid #999;
+  border-bottom: solid 1px #ddd;
+  height: 55px;
+}
+
+.tabela-times-td {
+  color: #111;
+  text-align: left;
+  letter-spacing: -2px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.times {
   background-color: #fcfcfc;
   border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
-  font-size: 57px;
+  font-size: 17px;
   min-width: 100px;
-  width: 450px;
+  width: 220px;
 }
 
-tabela-cabecalho {
+.tabela-posicao {
+  width: 25px;
+}
+
+.tabela-classificacao-tr {
   border-bottom: 1px solid #c0c0c0;
   border-right: 0 solid #999;
   border-top: 1px solid #ddd;
@@ -41,18 +56,15 @@ tabela-cabecalho {
   font-family: opensans;
   font-size: 11px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   height: 40px;
   line-height: 10px;
   text-transform: uppercase;
 }
-.tabela-tr {
-  text-align: left;
-  border-bottom: solid 1px #ddd;
-}
 
 .tabela-nome-time {
   text-align: left;
+  vertical-align: middle;
   line-height: 22px;
 }
 
@@ -60,25 +72,32 @@ tabela-cabecalho {
   color: #003366;
   font-weight: bold;
   border-spacing: 0px;
+  text-align: left;
+  letter-spacing: -2px;
+  line-height: 22px;
+  box-sizing: inherit;
+  height: 50px;
 }
 .prelibertadores {
   color: #1398be;
   font-weight: bold;
   width: 150px;
+  text-align: left;
+  letter-spacing: -2px;
+  line-height: 22px;
 }
 
-estatistica {
+.estatistica {
   font-size: 14px;
   width: calc(100% - 250px);
   border-collapse: collapse;
-  border-spacing: 0px;
+  border-spacing: 0;
   display: block;
   overflow-x: overlay;
 }
 
-estatistica-titulo {
+.estatistica-titulo {
   border-bottom: 1px solid #c0c0c0;
-  border-right: 0 solid #999;
   border-top: 1px solid #ddd;
   color: #999;
   font-family: opensans;
@@ -88,4 +107,27 @@ estatistica-titulo {
   height: 40px;
   line-height: 10px;
   text-transform: uppercase;
+}
+
+#tabela-coluna {
+  text-align: center;
+
+  font-size: 17px;
+}
+
+.tabela-head-coluna {
+  padding: 0 21px;
+  white-space: nowrap;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  font-size: 11px;
+}
+
+.tabela-numeros-body {
+  text-align: center;
+  border-right: 0px solid #999;
+  border-bottom: solid 1px #ddd;
+  height: 55px;
 }
