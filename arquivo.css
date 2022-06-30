@@ -10,7 +10,7 @@ div {
 
 header h2 {
   color: #111;
-  font-family: ProximaNova;
+  font-family: Arial;
   font-size: 1.625em;
   font-weight: bold;
   letter-spacing: -0.04em;
@@ -21,17 +21,9 @@ header h2 {
 
 .tabela-tr {
   text-align: center;
-  border-right: 0px solid #999;
+  border-right: 0px solid #dddd;
   border-bottom: solid 1px #ddd;
   height: 55px;
-}
-
-.tabela-times-td {
-  color: #111;
-  text-align: left;
-  letter-spacing: -2px;
-  line-height: 22px;
-  font-weight: bold;
 }
 
 .times {
@@ -49,11 +41,11 @@ header h2 {
 }
 
 .tabela-classificacao-tr {
-  border-bottom: 1px solid #c0c0c0;
-  border-right: 0 solid #999;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #dddd;
+  border-right: 0 solid #dddd;
+  border-top: 1px solid #dddd;
   color: #999;
-  font-family: opensans;
+  font-family: Arial;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -87,6 +79,33 @@ header h2 {
   line-height: 22px;
 }
 
+.tabela-times-td {
+  font-family: Arial;
+  color: #de9800;
+  text-align: left;
+  letter-spacing: -2px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.tabela-times-meio-td {
+  font-family: Arial;
+  color: #cccccc;
+  text-align: left;
+  letter-spacing: -2px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.tabela-times-rebaixados-td {
+  font-family: Arial;
+  color: #c91b04;
+  text-align: left;
+  letter-spacing: -2px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
 .estatistica {
   font-size: 14px;
   width: calc(100% - 250px);
@@ -97,10 +116,10 @@ header h2 {
 }
 
 .estatistica-titulo {
-  border-bottom: 1px solid #c0c0c0;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #dddd;
+  border-top: 1px solid #dddd;
   color: #999;
-  font-family: opensans;
+  font-family: Arial;
   font-size: 11px;
   font-style: normal;
   font-weight: 300;
@@ -127,7 +146,7 @@ header h2 {
 
 .tabela-numeros-body {
   text-align: center;
-  border-right: 0px solid #999;
-  border-bottom: solid 1px #ddd;
+  border-right: 0px solid #dddd;
+  border-bottom: solid 1px #dddd;
   height: 55px;
 }
