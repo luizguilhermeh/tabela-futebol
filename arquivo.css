@@ -1,17 +1,29 @@
 body {
   min-height: 100vh;
-  margin: 10 auto;
+  margin: 50px auto;
+  padding-left: 30px;
+}
+
+section {
+  border:1px solid #ccc;
+  width: 700px;
 }
 
 div {
+
   display: flex;
-  border: 1px black;
+  max-width:100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  
+  align-items: center;
 }
 
 header h2 {
   color: #111;
   font-family: Arial;
-  font-size: 1.625em;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: -0.04em;
   line-height: 1.75em;
@@ -25,6 +37,8 @@ header h2 {
   border-bottom: solid 1px #ddd;
   height: 55px;
 }
+
+
 
 .times {
   background-color: #fcfcfc;
@@ -62,10 +76,12 @@ header h2 {
   color: #666;
   font-weight: bold;
   font-family: Arial;
+  padding-left: 10px;
 }
 
 .libertadores {
   color: #003366;
+  font-family: Arial;
   font-weight: bold;
   border-spacing: 0px;
   text-align: left;
@@ -73,14 +89,17 @@ header h2 {
   line-height: 22px;
   box-sizing: inherit;
   height: 50px;
+  padding-left: 8px;
 }
 .prelibertadores {
   color: #1398be;
+  font-family: Arial;
   font-weight: bold;
   width: 150px;
   text-align: left;
   letter-spacing: -2px;
   line-height: 22px;
+  padding-left: 8px;
 }
 
 .tabela-times-td {
@@ -90,6 +109,7 @@ header h2 {
   letter-spacing: -2px;
   line-height: 22px;
   font-weight: bold;
+  padding-left: 8px;
 }
 
 .tabela-times-meio-td {
@@ -99,6 +119,7 @@ header h2 {
   letter-spacing: -2px;
   line-height: 22px;
   font-weight: bold;
+  padding-left: 8px;
 }
 
 .tabela-times-rebaixados-td {
@@ -108,11 +129,12 @@ header h2 {
   letter-spacing: -2px;
   line-height: 22px;
   font-weight: bold;
+  padding-left: 8px;
 }
 
 .estatistica {
   font-size: 14px;
-  width: calc(100% - 250px);
+  max-width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   display: block;
@@ -149,10 +171,15 @@ header h2 {
 }
 
 .tabela-numeros-body {
+  font-family: Arial;
   text-align: center;
   border-right: 0px solid #dddd;
   border-bottom: solid 1px #dddd;
   height: 55px;
+}
+
+.tabela-div-rodape {
+  display: inline-block;
 }
 
 .tabela-rodape {
@@ -164,6 +191,7 @@ header h2 {
 .tabela-rodape-opcoes {
   flex-wrap: nowrap;
     white-space: nowrap;
+    padding-left: 5px;
 }
 
 .tabela-span1 {
@@ -186,8 +214,8 @@ header h2 {
 
 .tabela-span3 {
   font-family: Arial;
-  font-size: 15px ;
-  margin-right: 10px;
+  font-size: 14px ;
+  margin-left: 3px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -195,5 +223,6 @@ header h2 {
 .tabela-span4 {
   font-family: Arial;
   text-transform: lowercase;
-  margin-right: 5px ;
+  margin-left: 3px ;
+  font-size: 12px;
 }
