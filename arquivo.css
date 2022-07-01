@@ -58,6 +58,10 @@ header h2 {
   text-align: left;
   vertical-align: middle;
   line-height: 22px;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+  font-family: Arial;
 }
 
 .libertadores {
@@ -149,4 +153,47 @@ header h2 {
   border-right: 0px solid #dddd;
   border-bottom: solid 1px #dddd;
   height: 55px;
+}
+
+.tabela-rodape {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.tabela-rodape-opcoes {
+  flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.tabela-span1 {
+  font-family: Arial;
+  font-size: 10px ;
+  line-height: 18px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.tabela-span2 {
+  font-family: Arial;
+  height: 9px;
+  margin-right: 5px;
+  width: 9px;
+  display: inline-block;
+  background-position-y: 2px;
+  overflow: hidden;
+}
+
+.tabela-span3 {
+  font-family: Arial;
+  font-size: 15px ;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tabela-span4 {
+  font-family: Arial;
+  text-transform: lowercase;
+  margin-right: 5px ;
 }
